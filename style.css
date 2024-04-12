@@ -5,6 +5,7 @@
 html, body {
     width: 100%;
     height:100%;
+    background-color: rgb(250, 250, 250);
 }
 .container {
     display: flex;
@@ -16,14 +17,33 @@ html, body {
 }
 .link {
     position: absolute;
-    /* background-color: aqua; */
     width: 100%;
     height: 100%;
     z-index: 1;
+
+    
 }
 .link div{
     width: 100%;
     height: 100%;
+
+}
+.link a {
+    text-decoration: none;
+}
+.click_button{
+    width: 180px;
+    height: 36px;
+    /* background-color: black; */
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-size:0.8em;
+    font-weight: 500;
 }
 .bus {
    display:grid;
