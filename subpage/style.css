@@ -27,7 +27,7 @@ html, body {
 .click_button{
     width: 100px;
     height: 100px;
-    background-color: rgb(21, 20, 20);
+    background-color: rgb(0, 0, 0);
     color: rgb(243, 243, 243);
     border-radius: 50px;
     display: flex;
